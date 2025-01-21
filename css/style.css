@@ -1,0 +1,944 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+.header-div1 {
+  height: 101px;
+  justify-content: flex-end;
+  gap: 472px;
+}
+
+.header-icon {
+  align-items: center;
+  gap: 25px;
+  padding-right: 150px;
+}
+
+.header-div1 h2 {
+  text-align: center;
+  padding-top: 25px;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #121212;
+}
+
+.header-div2 {
+  gap: 578px;
+  height: 50px;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  gap: 68px;
+}
+
+.menu a {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.phone {
+  gap: 13px;
+}
+.phone a {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.header1-div2 {
+  height: 50px;
+  background-color: #121212;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header1-div2 .menu1 {
+  margin-left: 150px;
+  gap: 68px;
+}
+.header1-div2 .menu1 a {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.sec2-wrap {
+  margin-top: 94px;
+}
+
+.submenu li:nth-child(1) a {
+  color: #2B13B5;
+  text-decoration: underline;
+}
+
+.sec2-wrap a {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #121212;
+}
+
+.submenu {
+  justify-content: center;
+  gap: 85px;
+  margin-bottom: 71px;
+}
+
+.grid-container {
+  scroll-behavior: smooth;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 310px);
+  grid-template-rows: repeat(2, 487px);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 61px;
+  justify-content: center;
+  transition: transform 0.5s ease;
+  overflow-x: hidden; /* Приховуємо вміст, що виходить за межі */
+}
+
+#er, #er2 {
+  position: absolute;
+  cursor: pointer;
+}
+
+#er2 {
+  left: 75px;
+  top: 200px;
+}
+
+#er {
+  right: 75px;
+  top: 200px;
+}
+
+.cards {
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  pointer-events: auto;
+}
+
+.cards > p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #121212;
+  height: 42px;
+}
+
+.cards p:hover {
+  cursor: pointer;
+  color: #2B13B5;
+}
+
+.cards > span {
+  margin-left: 219px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.sec2-wrap {
+  margin-top: 94px;
+}
+
+.submenu li:nth-child(1) a {
+  color: #2B13B5;
+  text-decoration: underline;
+}
+
+.sec2-wrap a {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #121212;
+}
+
+.submenu {
+  justify-content: center;
+  gap: 85px;
+  margin-bottom: 71px;
+}
+
+.grid-container {
+  scroll-behavior: smooth;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 310px);
+  grid-template-rows: repeat(2, 487px);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 61px;
+  justify-content: center;
+  transition: transform 0.5s ease;
+  overflow-x: hidden; /* Приховуємо вміст, що виходить за межі */
+}
+
+#er, #er2 {
+  position: absolute;
+  cursor: pointer;
+}
+
+#er2 {
+  left: 75px;
+  top: 200px;
+}
+
+#er {
+  right: 75px;
+  top: 200px;
+}
+
+.cards {
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  pointer-events: auto;
+}
+
+.cards > p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #121212;
+  height: 42px;
+}
+
+.cards p:hover {
+  cursor: pointer;
+  color: #2B13B5;
+}
+
+.cards > span {
+  margin-left: 219px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.basket-card {
+  gap: 79px;
+  margin-top: 35px;
+  align-items: center;
+}
+.basket-card .basket {
+  width: 265px;
+  height: 60px;
+  background-color: #121212;
+  align-items: center;
+  gap: 15px;
+}
+.basket-card .basket a {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121212;
+  color: #f5f5f5;
+  padding-left: 30px;
+}
+.basket-card .basket-heart {
+  align-items: center;
+  gap: 5px;
+}
+.basket-card .basket-heart a {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121212;
+}
+
+.delivery-card {
+  margin-top: 27px;
+  flex-direction: column;
+  gap: 15px;
+}
+.delivery-card .delivery {
+  align-items: center;
+  gap: 10px;
+}
+.delivery-card .delivery p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #736a6a;
+}
+
+.accordion {
+  width: 380px;
+  border-bottom: 3px solid #736a6a;
+  margin-top: 20px;
+}
+
+.accordion details {
+  border: none;
+}
+
+.accordion details summary {
+  padding: 9px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121212;
+  list-style: none;
+  border-top: 3px solid #736a6a;
+}
+
+.accordion details:last-child summary {
+  border-bottom: none;
+}
+
+.accordion details summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion details summary:after {
+  content: "▼";
+  float: right;
+  transform: rotate(0);
+  transition: transform 0.3s;
+}
+
+.accordion details[open] summary:after {
+  transform: rotate(-180deg);
+}
+
+.accordion details div {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.recomend {
+  margin-top: 111px;
+}
+.recomend h4 {
+  margin-left: 110px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121212;
+}
+.recomend .grid-container2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 310px);
+  grid-template-rows: repeat(1, 487px);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 61px;
+  justify-content: center;
+}
+
+.sec1_1-wrap .choice h2, .sec1-wrap h1, .sec1-wrap .button .btn, .cards > span {
+  font-family: "Inter", serif;
+  font-weight: 700;
+}
+
+.sec1-wrap {
+  position: relative;
+  height: 850px;
+  background-image: url(/images/Rectangle\ 31\ \(1\).png);
+}
+.sec1-wrap .button {
+  width: 249px;
+  height: 76px;
+  background-color: #2b13b5;
+  border-radius: 35px;
+  margin-left: 705px;
+  margin-top: 40px;
+}
+.sec1-wrap .button .btn {
+  font-size: 24px;
+  line-height: 34px;
+  color: #f0f0f0;
+  padding: 21px 54px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.sec1-wrap h1 {
+  text-align: center;
+  padding-top: 554px;
+  font-size: 48px;
+  line-height: 62px;
+  color: #121212;
+}
+.sec1-wrap h1 .shok {
+  color: #2b13b5;
+}
+
+.photo {
+  flex-direction: column;
+  row-gap: 15px;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+
+.sec1_1-wrap {
+  justify-content: center;
+  margin-top: 49px;
+  gap: 38px;
+}
+.sec1_1-wrap .choice h2 {
+  font-size: 20px;
+  line-height: 26px;
+  width: 625px;
+  height: 52px;
+  color: #121212;
+  text-transform: uppercase;
+}
+.sec1_1-wrap .choice h6 {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #2b13b5;
+  text-align: right;
+}
+.sec1_1-wrap .choice h3 {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #817575;
+  margin-bottom: 18px;
+  margin-top: 21px;
+}
+.sec1_1-wrap .div-color {
+  justify-content: center;
+  gap: 35px;
+  margin-top: 47px;
+  margin-bottom: 30px;
+}
+.sec1_1-wrap .div-color .color:nth-child(1) {
+  background-color: #121212;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.sec1_1-wrap .div-color .color:nth-child(2) {
+  background-color: #d9d3d3;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.sec1_1-wrap .div-color .color:nth-child(3) {
+  background-color: #aae5ac;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.sec1_1-wrap .div-color .color:nth-child(4) {
+  background-color: #f5cce9;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.sec1_1-wrap .div-color .color:nth-child(5) {
+  background-color: #f1c97f;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.sec1_1-wrap .div-color .color:nth-child(6) {
+  background-color: #8ac3f1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.sec1_1-wrap .memory-card {
+  gap: 60px;
+}
+.sec1_1-wrap .memory-card .memory {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 10px;
+  white-space: nowrap;
+  width: 100px;
+  height: 50px;
+  border: 1px solid #a9a0a0;
+}
+.sec1_1-wrap .memory-card .memory:nth-child(1) {
+  background-color: #2B13B5;
+  color: #F5F5F5;
+}
+.sec1_1-wrap .sim-card .sim {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 10px 23px;
+  white-space: nowrap;
+  width: 120px;
+  height: 50px;
+  border: 1px solid #a9a0a0;
+}
+.sec1_1-wrap .sim-card .sim:nth-child(1) {
+  background-color: #2B13B5;
+  color: #F5F5F5;
+  margin-right: 40px;
+}
+.sec1_1-wrap .sim-card .price {
+  margin-left: 80px;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #121212;
+}
+
+.sec2-wrap {
+  margin-top: 94px;
+}
+
+.submenu li:nth-child(1) a {
+  color: #2B13B5;
+  text-decoration: underline;
+}
+
+.sec2-wrap a {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #121212;
+}
+
+.submenu {
+  justify-content: center;
+  gap: 85px;
+  margin-bottom: 71px;
+}
+
+.grid-container {
+  scroll-behavior: smooth;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 310px);
+  grid-template-rows: repeat(2, 487px);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 61px;
+  justify-content: center;
+  transition: transform 0.5s ease;
+  overflow-x: hidden; /* Приховуємо вміст, що виходить за межі */
+}
+
+#er, #er2 {
+  position: absolute;
+  cursor: pointer;
+}
+
+#er2 {
+  left: 75px;
+  top: 200px;
+}
+
+#er {
+  right: 75px;
+  top: 200px;
+}
+
+.cards {
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  pointer-events: auto;
+}
+
+.cards > p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #121212;
+  height: 42px;
+}
+
+.cards p:hover {
+  cursor: pointer;
+  color: #2B13B5;
+}
+
+.cards > span {
+  margin-left: 219px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.sec2-wrap {
+  margin-top: 94px;
+}
+
+.submenu li:nth-child(1) a {
+  color: #2B13B5;
+  text-decoration: underline;
+}
+
+.sec2-wrap a {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #121212;
+}
+
+.submenu {
+  justify-content: center;
+  gap: 85px;
+  margin-bottom: 71px;
+}
+
+.grid-container {
+  scroll-behavior: smooth;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 310px);
+  grid-template-rows: repeat(2, 487px);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 61px;
+  justify-content: center;
+  transition: transform 0.5s ease;
+  overflow-x: hidden; /* Приховуємо вміст, що виходить за межі */
+}
+
+#er, #er2 {
+  position: absolute;
+  cursor: pointer;
+}
+
+#er2 {
+  left: 75px;
+  top: 200px;
+}
+
+#er {
+  right: 75px;
+  top: 200px;
+}
+
+.cards {
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  pointer-events: auto;
+}
+
+.cards > p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #121212;
+  height: 42px;
+}
+
+.cards p:hover {
+  cursor: pointer;
+  color: #2B13B5;
+}
+
+.cards > span {
+  margin-left: 219px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.footer-wrap {
+  height: 195px;
+  background-color: #121212;
+  margin-top: 80px;
+}
+
+.footer-menu {
+  gap: 118px;
+}
+
+.footer-menu a {
+  display: block;
+  padding-top: 87px;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer-menu li:nth-child(1) a {
+  display: block;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  padding: 76px 200px 77px 150px;
+}
+
+.sec2-wrap {
+  margin-top: 94px;
+}
+
+.submenu li:nth-child(1) a {
+  color: #2B13B5;
+  text-decoration: underline;
+}
+
+.sec2-wrap a {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #121212;
+}
+
+.submenu {
+  justify-content: center;
+  gap: 85px;
+  margin-bottom: 71px;
+}
+
+.grid-container {
+  scroll-behavior: smooth;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 310px);
+  grid-template-rows: repeat(2, 487px);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 61px;
+  justify-content: center;
+  transition: transform 0.5s ease;
+  overflow-x: hidden; /* Приховуємо вміст, що виходить за межі */
+}
+
+#er, #er2 {
+  position: absolute;
+  cursor: pointer;
+}
+
+#er2 {
+  left: 75px;
+  top: 200px;
+}
+
+#er {
+  right: 75px;
+  top: 200px;
+}
+
+.cards {
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  pointer-events: auto;
+}
+
+.cards > p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #121212;
+  height: 42px;
+}
+
+.cards p:hover {
+  cursor: pointer;
+  color: #2B13B5;
+}
+
+.cards > span {
+  margin-left: 219px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.basket-card {
+  gap: 79px;
+  margin-top: 35px;
+  align-items: center;
+}
+.basket-card .basket {
+  width: 265px;
+  height: 60px;
+  background-color: #121212;
+  align-items: center;
+  gap: 15px;
+}
+.basket-card .basket a {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121212;
+  color: #f5f5f5;
+  padding-left: 30px;
+}
+.basket-card .basket-heart {
+  align-items: center;
+  gap: 5px;
+}
+.basket-card .basket-heart a {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121212;
+}
+
+.delivery-card {
+  margin-top: 27px;
+  flex-direction: column;
+  gap: 15px;
+}
+.delivery-card .delivery {
+  align-items: center;
+  gap: 10px;
+}
+.delivery-card .delivery p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #736a6a;
+}
+
+.accordion {
+  width: 380px;
+  border-bottom: 3px solid #736a6a;
+  margin-top: 20px;
+}
+
+.accordion details {
+  border: none;
+}
+
+.accordion details summary {
+  padding: 9px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121212;
+  list-style: none;
+  border-top: 3px solid #736a6a;
+}
+
+.accordion details:last-child summary {
+  border-bottom: none;
+}
+
+.accordion details summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion details summary:after {
+  content: "▼";
+  float: right;
+  transform: rotate(0);
+  transition: transform 0.3s;
+}
+
+.accordion details[open] summary:after {
+  transform: rotate(-180deg);
+}
+
+.accordion details div {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.recomend {
+  margin-top: 111px;
+}
+.recomend h4 {
+  margin-left: 110px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121212;
+}
+.recomend .grid-container2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 310px);
+  grid-template-rows: repeat(1, 487px);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 61px;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

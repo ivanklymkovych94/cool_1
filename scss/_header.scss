@@ -1,0 +1,67 @@
+.header-div1 {
+  height: 101px;
+  justify-content: flex-end;
+  //   align-items: center;
+  gap: 472px;
+}
+.header-icon {
+  align-items: center;
+  gap: 25px;
+  padding-right: 150px;
+}
+.header-div1 h2 {
+  text-align: center;
+  padding-top: 25px;
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #121212;
+}
+.header-div2 {
+  gap: 578px;
+  height: 50px;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu {
+  gap: 68px;
+}
+.menu a {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.phone {
+  gap: 13px;
+  a {
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+}
+.header1-div2{
+  height: 50px;
+  background-color: #121212;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  .menu1{
+    margin-left: 150px;
+    gap: 68px;
+    a{
+      font-family: "Inter", serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 21px;
+      color: #ffffff;
+    }
+  }
+}
+

@@ -1,0 +1,103 @@
+@import "./sec2";
+@mixin fontweigth ($weigth){
+    font-family: "Inter", serif;
+    font-weight: $weigth;;
+    font-size: 20px;
+    line-height: 24px;
+    color: $main-color;
+}
+.basket-card {
+  gap: 79px;
+  margin-top: 35px;
+  align-items: center;
+  .basket {
+    width: 265px;
+    height: 60px;
+    background-color: $main-color;
+    align-items: center;
+    gap: 15px;
+    a {
+    @include fontweigth(500);
+      color: #f5f5f5;
+
+      padding-left: 30px;
+    }
+  }
+  .basket-heart {
+    align-items: center;
+    gap: 5px;
+    a {
+        @include fontweigth(700);
+    }
+  }
+}
+.delivery-card {
+  margin-top: 27px;
+  flex-direction: column;
+  gap: 15px;
+  .delivery {
+    align-items: center;
+    gap: 10px;
+    p {
+      font-family: "Inter", serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #736a6a;
+    }
+  }
+}
+.accordion {
+  width: 380px;
+
+  border-bottom: 3px solid #736a6a;
+  margin-top: 20px;
+}
+.accordion details {
+  border: none;
+}
+.accordion details summary {
+  padding: 9px;
+  font-size: 16px;
+  cursor: pointer;
+  @include fontweigth(700);
+  list-style: none;
+  border-top: 3px solid #736a6a;
+}
+.accordion details:last-child summary {
+  border-bottom: none;
+}
+.accordion details summary::-webkit-details-marker {
+  display: none;
+}
+.accordion details summary:after {
+  content: "▼";
+  float: right;
+  transform: rotate(0);
+  transition: transform 0.3s;
+}
+.accordion details[open] summary:after {
+  transform: rotate(-180deg);
+}
+.accordion details div {
+  padding: 10px;
+  font-size: 14px;
+}
+.recomend{
+    margin-top: 111px;
+    h4{
+        margin-left: 110px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+    @include fontweigth(700);
+    }
+    .grid-container2{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(4,310px);
+        grid-template-rows: repeat(1,487px);
+        column-gap: 20px;
+        row-gap: 61px;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,144 @@
+@import "./sec2",'./sec1_1';
+%family {
+  font-family: "Inter", serif;
+  font-weight: 700;
+}
+@mixin color($color) {
+  background-color: $color;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.sec1-wrap {
+  position: relative;
+  height: 850px;
+  background-image: url(/images/Rectangle\ 31\ \(1\).png);
+  .button {
+    width: 249px;
+    height: 76px;
+    background-color: #2b13b5;
+    border-radius: 35px;
+    margin-left: 705px;
+    margin-top: 40px;
+
+    .btn {
+      @extend %family;
+      font-size: 24px;
+      line-height: 34px;
+      color: #f0f0f0;
+      padding: 21px 54px;
+      display: block;
+      text-transform: uppercase;
+    }
+  }
+}
+.sec1-wrap h1 {
+  // position: absolute;
+  text-align: center;
+  padding-top: 554px;
+  @extend %family;
+  font-size: 48px;
+  line-height: 62px;
+  color: #121212;
+  .shok {
+    color: #2b13b5;
+  }
+}
+.photo {
+  flex-direction: column;
+  row-gap: 15px;
+  column-gap: 25px;
+}
+.sec1_1-wrap {
+  justify-content: center;
+  margin-top: 49px;
+  gap: 38px;
+  .choice {
+    h2 {
+      @extend %family;
+      font-size: 20px;
+      line-height: 26px;
+      width: 625px;
+      height: 52px;
+      color: $main-color;
+      text-transform: uppercase;
+    }
+    h6 {
+      font-family: "Inter", serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      color: #2b13b5;
+      text-align: right;
+    }
+    h3 {
+      font-family: "Inter", serif;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 26px;
+      color: #817575;
+      margin-bottom: 18px;
+      margin-top: 21px;
+    }
+  }
+  .div-color {
+    justify-content: center;
+    gap: 35px;
+    margin-top: 47px;
+    margin-bottom: 30px;
+
+    $colors: (#121212, #d9d3d3, #aae5ac, #f5cce9, #f1c97f, #8ac3f1);
+
+    @for $i from 1 through length($colors) {
+      .color:nth-child(#{$i}) {
+        @include color(nth($colors, $i));
+      }
+    }
+  }
+  .memory-card {
+    gap: 60px;
+    .memory {
+        font-family: "Inter", serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        padding: 10px;
+        white-space: nowrap;
+      width: 100px;
+      height: 50px;
+      border: 1px solid #a9a0a0;
+    }
+    .memory:nth-child(1){
+        background-color:  #2B13B5;
+        color:  #F5F5F5;
+        
+    }
+  }
+  .sim-card{
+    .sim{
+        font-family: "Inter", serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        padding: 10px 23px;
+        white-space: nowrap;
+        width: 120px;
+      height: 50px;  
+      border: 1px solid #a9a0a0;
+    }
+    .sim:nth-child(1){
+        background-color:  #2B13B5;
+        color:  #F5F5F5;
+        margin-right: 40px;
+        
+    }
+    .price{
+        margin-left: 80px;
+        font-family: "Inter", serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+        color: $main-color;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+$main-color: #121212;
+.sec2-wrap{
+    margin-top: 94px;
+
+}
+.submenu li:nth-child(1) a{
+    color:  #2B13B5;
+    text-decoration: underline;
+    
+}
+.sec2-wrap a{
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: $main-color;
+}
+.submenu{
+    justify-content: center;
+    gap: 85px;
+    margin-bottom: 71px;
+}
+.grid-container{
+    // overflow-x: auto;
+    scroll-behavior: smooth;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,310px);
+    grid-template-rows: repeat(2,487px);
+    column-gap: 20px;
+    row-gap: 61px;
+    justify-content: center;
+    // white-space: nowrap;
+    transition: transform 0.5s ease;
+    overflow-x: hidden; /* Приховуємо вміст, що виходить за межі */
+}
+#er,#er2{
+    position: absolute;
+    cursor: pointer;
+}
+#er2{
+    left: 75px;
+    top: 200px;
+}
+#er{
+    right: 75px;
+    top: 200px;
+
+}
+.cards{
+    position: relative;
+}
+// .cards:nth-child(3) span{
+// margin-top: 31px;
+// }
+.heart{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    pointer-events: auto; 
+}
+.cards>p{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: $main-color;
+    height: 42px;
+    
+}
+.cards p:hover {
+    cursor: pointer;
+    color: #2B13B5;
+}
+.cards>span{
+    margin-left: 219px;
+    @extend %family;
+    font-size: 20px;
+    line-height: 25px;
+
+}

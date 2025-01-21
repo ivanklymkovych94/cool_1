@@ -1,0 +1,30 @@
+@import './sec2';
+.footer-wrap{
+    height: 195px;
+    background-color:$main-color ;
+    margin-top: 80px;
+   
+}
+.footer-menu{
+    gap: 118px;
+}
+
+.footer-menu a{
+    
+    display: block;
+    padding-top: 87px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+text-transform: uppercase;}
+.footer-menu li:nth-child(1) a{
+    display: block;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    padding: 76px 200px 77px 150px;
+
+}

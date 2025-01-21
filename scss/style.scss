@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "./header",'./sec1','./sec2','./footer','./sec1_1','./adaptive';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
